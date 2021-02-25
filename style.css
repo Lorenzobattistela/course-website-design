@@ -1,0 +1,96 @@
+body {
+  background-color: #80a4ed;
+}
+
+nav {
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav p {
+  font-size: 1.3em;
+  color: #ffffff;
+  font: 500;
+}
+
+nav button {
+  padding: 1em 2em 1em 2em;
+  border: white;
+  color: white;
+  background-color: #80a4ed;
+  border-style: solid;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+main {
+  margin-top: 6em;
+}
+
+main h1 {
+  text-align: center;
+  color: #395c6b;
+  font-size: 3em;
+  margin-bottom: 1.6em;
+}
+
+main button {
+  margin: 0 auto;
+  padding: 1.3em 8em 1.3em 8em;
+  border-radius: 4em;
+  border-style: none;
+  background-color: #395c6b;
+  color: #e6e1c5;
+  font-size: 1em;
+  transition: transform 0.2s;
+}
+
+main button:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.title-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+
+.center-image {
+  height: 600px;
+  width: 600px;
+  position: relative;
+  float: right;
+  margin-right: 4em;
+}
+
+main p {
+  font-size: 2em;
+  width: 50%;
+  margin-top: 5em;
+  color: #bcd3f2;
+  font-weight: 600;
+  margin-left: 2em;
+}
+
+footer {
+  margin-top: 10em;
+  margin-left: 15em;
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+}
+
+.links {
+  font-size: 2em;
+  margin: 1em;
+  text-decoration: none;
+  color: #e6e1c5;
+  font-weight: 500;
+}
