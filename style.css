@@ -107,12 +107,24 @@ footer {
   width: 30%;
 }
 
-.sign-up input {
+.form-input {
   margin: 1.5em;
   border-radius: 0.3em;
   border-style: none;
   background-color: white;
-  padding: 0.4em;
+  padding: 1em;
+}
+
+.submit {
+  margin: 1.5em;
+  border-radius: 0.3em;
+  border-style: none;
+  padding: 0.7em;
+  color: white;
+  font-weight: 500;
+  font-size: 1.2em;
+  background-color: #395c6b;
+  cursor: pointer;
 }
 
 .sign-up-main {
@@ -127,9 +139,5 @@ footer {
 }
 
 nav button {
-  cursor: pointer;
-}
-
-.submit {
   cursor: pointer;
 }
