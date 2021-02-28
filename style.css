@@ -15,16 +15,6 @@ nav p {
   font: 500;
 }
 
-nav button {
-  padding: 1em 2em 1em 2em;
-  border: white;
-  color: white;
-  background-color: #80a4ed;
-  border-style: solid;
-  font-size: 0.9em;
-  font-weight: 500;
-}
-
 nav a {
   text-decoration: none;
 }
@@ -140,4 +130,16 @@ footer {
 
 nav button {
   cursor: pointer;
+}
+
+.paragraph {
+  margin-top: -0.6em;
+}
+
+.notebook {
+  float: right;
+  height: 600px;
+  width: 600px;
+  margin-top: 3em;
+  margin-right: 5em;
 }
